@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores da ActionBar, da StatusBar e links Web do app -->
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Cor de fundo para a categoria de passeios -->
+    <color name="category_tours">#B3E5FC</color>
+
+    <!-- Cor de fundo para a categoria de atrações culturais -->
+    <color name="category_cultures">#DCEDC8</color>
+
+    <!-- Cor de fundo para a categoria de restaurantes -->
+    <color name="category_restaurants">#FFF9C4</color>
+
+    <!-- Cor de fundo para a categoria de hotéis -->
+    <color name="category_hotels">#FFCDBC</color>
+</resources>

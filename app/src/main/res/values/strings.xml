@@ -1,0 +1,319 @@
+<resources>
+    <string name="app_name">Guia de Turismo - Rio de Janeiro</string>
+    <!-- Nome da categoria de passeios -->
+    <string name="category_tours">Passeios</string>
+
+    <!-- Nome da categoria de atrações culturais -->
+    <string name="category_cultures">Cultural</string>
+
+    <!-- Nome da categoria de restaurantes -->
+    <string name="category_restaurants">Restaurantes</string>
+
+    <!-- Nome da categoria de hotéis -->
+    <string name="category_hotels">Hotéis</string>
+
+    <!-- Detalhes das atraçoes, como nome, telefones, horários de funcionamento, endereço,
+    endereço Web (URL) e descrição.
+
+    OBS1: nome e endereço são obrigatórios
+    OBS2: No endereço deve constar apenas a rua (e número) e o bairro, separados por hífen.
+          Ex: Av. Atlântica - Copacabana
+              Rua Cosme Velho, 513 - Santa Teresa
+     -->
+
+    <!-- ## PASSEIOS ## -->
+
+    <string name="tours_name1">Cristo Redentor</string>
+    <string name="tours_phone1">(21) 2558-1329 / (21) 2492-2252 / (21) 2492-2253</string>
+    <string name="tours_hours1">Diariamente, de 08h às 17h</string>
+    <string name="tours_address1">Rua Cosme Velho, 513 - Santa Teresa</string>
+    <string name="tours_web1">http://www.cristoredentoroficial.com.br</string>
+    <string name="tours_description1">
+        \tNo alto do morro do Corcovado está instalado o Cristo Redentor, um dos pontos turísticos mais procurados do Rio de Janeiro. Maior e mais famosa escultura Art Déco do mundo, a estátua do Cristo Redentor começou a ser planejada em 1921 e foi desenvolvida pelo engenheiro Heitor da Silva Costa ao longo de cinco anos de trabalho, de 1926 à 1931, o ano de inauguração do monumento.\n\n
+        \tEstá situado no Parque Nacional da Tijuca, a 710 metros do nível do mar, de onde se pode apreciar uma das mais belas vistas da cidade. Ao todo são 220 degraus que levam até os pés da famosa estátua, eleita uma das Sete Maravilhas do Mundo em votação organizada em 2007 pela instituição Suíça New 7 Wonders Foundation. O monumento é acessível via trem, van ou carro.\n\n
+        \tPara chegar ao monumento, há um agradável passeio de trem que, durante vinte minutos, atravessa a Mata Atlântica até chegar ao topo do Corcovado. Para facilitar o acesso dos visitantes, foram construídos três elevadores panorâmicos e quatro escadas rolantes. O visual é estonteante, o que torna o programa imperdível para quem visita a cidade.
+    </string>
+
+    <string name="tours_name2">Pão de Açucar</string>
+    <string name="tours_phone2">(21) 2546-8433</string>
+    <string name="tours_hours2">Diariamente, de 8h às 19:50h</string>
+    <string name="tours_address2">Avenida Pasteur, 520 - Botafogo</string>
+    <string name="tours_web2">http://www.bondinho.com.br</string>
+    <string name="tours_description2">
+        \tPartindo da Praia Vermelha, os visitantes pegam o primeiro bonde leva ao morro da Urca, e de lá um segundo bondinho os leva até o topo do morro do Pão de Açúcar, que fica a 396 metros do nível do mar. Diferentes histórias justificam o nome desse ponto turístico; a mais popular diz que durante os séculos XVI e XVIII, no auge da produção de cana de açúcar, os produtores armazenavam os blocos de açúcar em formas para serem exportados, e a semelhança do objeto com o morro do Pão do Açúcar deu origem ao nome.\n\n
+        \tInaugurado em 1912, o Bondinho do Pão de Açúcar foi o primeiro teleférico do Brasil e terceiro no mundo, ligando o Morro da Urca ao Morro do Pão de Açúcar. Desde então, mais de 40 milhões de pessoas já utilizaram os bondinhos.\n\n
+        \tDo alto dos dois morros se descortina uma deslumbrante paisagem da cidade, incluindo a enseada de Botafogo, a orla de Copacabana e a entrada da Baía de Guanabara. No verão, o anfiteatro localizado no alto do Morro da Urca é palco para shows e eventos noturnos, aliando divertimento a um belíssimo visual das luzes da cidade.\n\n
+        \tCrianças e jovens de 6 a 21 anos, estudantes, idosos e portadores de necessidades especiais têm direito a desconto de 50%. Crianças menores de 6 anos não pagam.
+    </string>
+
+    <string name="tours_name3">Praia de Copacabana / Leme</string>
+    <string name="tours_address3">Avenida Atlântica - Copacabana </string>
+    <string name="tours_description3">
+        \tCarinhosamente apelidada pela população de Princesinha do Mar, uma canção popular dos brasileiros João de Barro – o Braguinha – e Alberto Ribeiro, a praia de Copacabana localiza-se no bairro de mesmo nome, na zona Sul da cidade do Rio de Janeiro. Copacabana conta com bicicletários, ciclovia, quiosques, hotéis, bares e restaurantes, frequentados tanto de dia como à noite. Possui também dois Fortes Militares, um em cada extremidade da praia, com vistas panorâmicas, abertos à visitação.\n\n
+        \tTamanho fascínio também se dá pelo belíssimo calçadão da Avenida Atlântica em pedras portuguesas brancas e pretas, que formam um lindo mosaico no formato de ondas, inspirado no calçadão de Lisboa e usado por Roberto Burle Marx na praia. Possuem grande infraestrutura de hotéis e quiosques, que atrem turistas do mundo inteiro.\n\n
+        \tPalco da maior festa de Réveillon do planeta, com seus fogos mundialmente conhecidos, Copacabana reúne mais de três milhões de pessoas a cada passagem de ano. Suas areias também abrigam grandiosos eventos como os Jogos Pan-americanos do Rio 2007, campeonatos mundiais de futebol de areia e campeonatos mundiais de vôlei.
+    </string>
+
+    <string name="tours_name4">Praça Mauá</string>
+    <string name="tours_address4">Praça Mauá - Centro </string>
+    <string name="tours_description4">
+        \tA Praça Mauá marca o início da Avenida Rio Branco e também da Região Portuária. A partir de 1910, com a inauguração do Porto do Rio, foi um importante ponto de recepção dos navios que traziam mercadorias e turistas à cidade. No entorno da praça há importantes construções, como o Museu de Arte do Rio (MAR) e o Museu do Amanhã, além do edifício A Noite, primeiro arranha-céu da cidade, construído em 1930. No centro da praça está a estátua do Barão de Mauá, Irineu Evangelista de Souza, grande empresário do tempo do Império.
+    </string>
+
+    <string name="tours_name5">Parque de Madureira</string>
+    <string name="tours_hours5">Terça a domingo, de 5h às 22h</string>
+    <string name="tours_address5">Rua Soares Caldeira, 115 - Madureira</string>
+    <string name="tours_web5">http://www.cidadeolimpica.com.br/parque-madureira/</string>
+    <string name="tours_description5">
+        \tCom cerca de 93 mil m², o parque é um dos maiores da cidade, com área equivalente a 14 campos do Maracanã. E o parque não é superlativo apenas em suas medidas, mas também nos itens e opções de lazer que oferece aos moradores da Zona Norte carioca. Quadras de vôlei, basquete e futebol, além de um campo de grama sintética para partidas de futebol dividem o espaço com fontes, riachos, quiosques, pista de skate, pomar e brinquedos.
+        \tAo todo são 800 árvores nativas, 50 palmeiras, além de flores e 31.500 metros quadrados de grama, tornando o espaço amplamente arborizado. Práticas sustentáveis, como o controle de resíduos sólidos, uso da água da chuva, captação e uso de energia solar e iluminação de baixo consumo fazem parte do dia a dia do parque. O parque, que acompanha a linha férrea que corta o bairro, conta ainda com dois espaços culturais: a Arena Carioca, que receberá apresentações culturais, e a Praça do Samba, espaço dedicado ao gênero musical tão influente no bairro que conta com suas das mais antigas agremiações cariocas – Portela e Império Serrano.\n\n
+    </string>
+
+    <string name="tours_name6">Bondinho de Santa Teresa</string>
+    <string name="tours_hours6">Segunda a sábado, de 11h às 16h</string>
+    <string name="tours_address6">Rua Lélio Gama, 2 - Centro</string>
+    <string name="tours_description6">
+        \tOs famosos bondes de Santa Teresa, que ligam o centro do Rio ao bairro de Santa Teresa, não são apenas um meio de transporte real para moradores do bairro ou mesmo turistas que querem visitar o local. São uma atração da cidade, fazem parte do cenário local e tornaram-se, inclusive, cartão-postal.\n\n
+        \tFora de circulação durante quatro anos, desde o meado do ano de 2015 os bondinhos circulam, em operação assistida, nos trechos Largo da Carioca-Largo dos Guimarães e Largo da Carioca-Francisco Muratori. As saídas ocorrem a cada 20 minutos no ramal Guimarães, e a cada hora no ramal Muratori. Durante a operação assistida, não há cobrança de tarifa.
+    </string>
+
+    <string name="tours_name7">Parque dos Patins</string>
+    <string name="tours_address7">Avenida Borges de Medeiros, próximo ao Jockey Club - Lagoa</string>
+    <string name="tours_description7">
+        \tO Parque dos Patins conta com diferentes opções de lazer e esporte, gastronomia, banheiros públicos e estacionamento. Possui pistas para patins, skate e bicicletas, além de um parque com brinquedos para crianças, de escorregas a balanços.
+    </string>
+
+    <string name="tours_name8">Jardim Botânico</string>
+    <string name="tours_phone8">(21) 3874-1808 / (21) 3874-1214</string>
+    <string name="tours_hours8">(Seg) de 12h às 17h / (Ter - Dom) de 8h às 17h</string>
+    <string name="tours_address8">Rua Jardim Botânico, 1008 - Jardim Botânico</string>
+    <string name="tours_web8">http://www.jbrj.gov.br</string>
+    <string name="tours_description8">
+        \tFundado em 1808 por Dom João VI, o Jardim Botânico é um importante ponto turístico da cidade e amplamente visitado por pesquisadores que estudam as centenas de espécies que o habitam. Com área total de 137 hectares, sendo 54 de área cultivada, o Jardim Botânico abriga coleções raras de bromélias e orquídeas, além de árvores centenárias e plantas exóticas.\n\n
+        \tO jardim também tem obras do início do século XVI, guardando um rico patrimônio histórico e cultural. Entre os monumentos destacam-se as estátuas de Eco e Narciso de mestre Valentim, o Portal da Academia de Belas Artes, projetado por Grandjean de Montigny, e o Jardim Japonês, criado em 1935 a partir da doação de 65 espécies de plantas típicas do Japão. O parque também é um excelente local para observação de pássaros, pois conta com mais de cem diferentes espécies nas copas e troncos de suas árvores.\n\n
+        \tO Museu do Meio Ambiente e o Espaço Tom Jobim, palcos de shows, exposições e eventos culturais importantes da cidade, também compõem as atrações do Jardim Botânico.
+    </string>
+
+    <!-- ## CULTURAIS ## -->
+
+    <string name="cultures_name1">Museu do Amanhã</string>
+    <string name="cultures_hours1">Terça a domingo, de 12h às 20h</string>
+    <string name="cultures_address1">Praça Mauá, 1 - Centro</string>
+    <string name="cultures_web1">http://museudoamanha.org.br</string>
+    <string name="cultures_description1">
+        \tPerguntas como \“de onde viemos?\” e \“para onde vamos?\” permeiam o imaginário da população mundial e são comuns a todos os povos. Pensando nessas questões, e em tantas outras, o visionário projeto do Museu do Amanhã tomou forma e se torna, então, um amplo espaço de debate e estudo sobre o impacto de nossas ações e como podemos alterar o cenário decadente que se avizinha. Instituições renomadas mundialmente, como o MIT (Instituto de Tecnologia de Massachussets), o Google e a NASA, fazem sua parte do esforço coletivo de estudo de como os indivíduos podem transformar nosso destino na Terra. A proposta do Museu do Amanhã é pioneira em todo o mundo: não há sequer um espaço similar onde atividades culturais e de pesquisa tenham essa proposta de estudo do nosso amanhã.
+    </string>
+
+    <string name="cultures_name2">Museu de Arte do Rio (MAR)</string>
+    <string name="cultures_phone2">(21) 3031-2741</string>
+    <string name="cultures_hours2">Terça a domingo, de 12h às 19h</string>
+    <string name="cultures_address2">Praça Mauá, 5 - Centro</string>
+    <string name="cultures_web2">http://www.museudeartedorio.org.br</string>
+    <string name="cultures_description2">
+        \tInaugurado em março de 2013, o MAR está instalado em duas construções com estilos heterogêneos, porém interligados. O antigo palacete de D. João VI se une à uma edificação modernista. O primeiro prédio abriga as salas de exposições, que recebem mostras nacionais  e internacionais, de assuntos do passado e do momento presente. Já no segundo, funciona a Escola do Olhar, que desenvolve programas acadêmicos sobre arte, cultura e educação.\n\n
+        \tO MAR é gratuito às terças.
+    </string>
+
+    <string name="cultures_name3">Museu de Arte Conteporânea (MAC)</string>
+    <string name="cultures_phone3">(21)  2620-2481 / (21) 2722-2400</string>
+    <string name="cultures_hours3">Terça a domingo, de 10h às 18h</string>
+    <string name="cultures_address3">Mirante da Boa Viagem, s/nº - Boa Viagem, Niterói</string>
+    <string name="cultures_web3">http://culturaniteroi.com.br/macniteroi</string>
+    <string name="cultures_description3">
+        \tO Museu de Arte Contemporânea (MAC), inaugurado em 2 de setembro de 1996, é o atual símbolo da cidade de Niterói. A forma futurista criada por Niemeyer tornou-se um marco da arquitetura moderna mundial, sendo considerada uma das sete maravilhas do Mundo em museus pela mídia especializada. Construído com um espelho d’água ao seu redor, ele ganha ainda mais leveza, e sua grande rampa externa de concreto, com piso vermelho, conduz o visitante aos pavimentos superiores do Museu, com vista panorâmica para a Baía de Guanabara e as cidades do Rio de Janeiro e de Niterói. O MAC abriga a Coleção João Sattamini, uma das mais importantes coleções de arte contemporânea do país, com mais de 1300 obras.
+    </string>
+
+    <string name="cultures_name4">Caixa Cultural</string>
+    <string name="cultures_phone4">(21) 3980-3815</string>
+    <string name="cultures_hours4">Terça a domingo, de 10h às 21h.</string>
+    <string name="cultures_address4">Avenida Almirante Barroso, 25 - Centro</string>
+    <string name="cultures_web4">http://www.caixacultural.com.br</string>
+    <string name="cultures_description4">
+        \tA Caixa Cultural Rio de Janeiro está localizada no edifício-sede da Caixa, na Av. Almirante Barroso, junto à Estação Carioca do metrô. Inaugurada em 2006, abriga em seus mais de 6.000m² um teatro de arena, dois cinemas, quatro galerias de arte, além de salas de oficinas e ensaios. A Caixa Cultural já se tornou referência de espaço cultural na cidade do Rio de Janeiro. Também faz parte da Caixa Cultural o tradicional Teatro Nelson Rodrigues, localizado na Av. Chile.
+    </string>
+
+    <string name="cultures_name5">Petrópolis</string>
+    <string name="cultures_address5">Petrópolis - Petrópolis</string>
+    <string name="cultures_web5">http://www.petropolis.rj.gov.br</string>
+    <string name="cultures_description5">
+        \tEncantado com o clima e a beleza do lugar, D. Pedro I adquiriu ali uma fazenda. Treze anos depois, seu filho D. Pedro II deu origem à cidade, construída para ser a sede da Corte. Ainda nos dias de hoje Petrópolis guarda um charme daqueles tempos de glória, conservando as aristocráticas mansões dos barões, viscondes e condes, situadas próximas ao Palácio Imperial – hoje um belo museu, onde está o acervo dos tempos do Império e cuja fachada serve de palco para o belo espetáculo Som e Luz. Além do Museu Imperial, não deixe de visitar a Casa de Santos Dumont, o Quitandinha, o Palácio de Cristal, a Catedral de São Pedro de Alcântara, o Palácio Rio Negro e as casas do Barão de Mauá, Princesa Isabel e Rui Barbosa. O imponente Castelo do Barão de Itaipava, a 15 km do Centro, também merece uma visita. A criançada vai curtir passear pelo Parque Cremerie, área de lazer onde há pedalinhos na lagoa e brinquedos por toda a área verde.\n\n
+        \tEm Itaipava, além de bons hotéis e restaurantes, há vasta oferta de cerâmica, móveis, decoração, antiquários e artesanato. Alguns eventos do calendário petropolitano merecem destaque, como a Bauernfest e o Festival de Inverno, que aproveitam a temperatura fria para atrair mais turistas para a cidade. Curtir a natureza local é outro excelente programa: é possível praticar rafting pelo rio Paraibuna, descida de rapel na cachoeira Véu da Noiva, cavalgada ecológica no Haras Analu e pela região que liga o vale do Cuiabá a Teresópolis, caminhadas ecológicas pela serra dos Órgãos e trekking na reserva biológica do Tinguá. Outra boa pedida é percorrer o antigo “Caminho do Imperador”, ou “Estrada Imperial”, que liga Petrópolis a Paty do Alferes, pelo alto da serra do Couto, num percurso de 36 km.
+    </string>
+
+    <string name="cultures_name6">Theatro Municipal</string>
+    <string name="cultures_phone6">(21) 2332-9191 / (21) 2332-9134</string>
+    <string name="cultures_address6">Praça Floriano, s/n - Centro</string>
+    <string name="cultures_web6">http://www.theatromunicipal.rj.gov.br</string>
+    <string name="cultures_description6">
+        \tInaugurado em 1909, o Theatro Municipal é uma das principais casas de espetáculo do Brasil e da América Latina. Recentemente, passou por uma ampla reforma, onde preciosidades como um grande painel original do italiano Eliseu Visconti foram resgatadas. Importantes áreas do Theatro foram restauradas, com destaque para a imponente águia de 350kg que enfeita o topo da construção, que recebeu 8 mil folhas de ouro 23 quilates de douramento.\n\n
+        \tAo longo de pouco mais de um século de história, o Theatro Municipal recebeu grandes artistas internacionais e importantes nomes da cultura brasileiras, incluindo representantes da dança, música, ópera e artes cênicas. O projeto que deu início à construção do Theatro Municipal foi criado a partir da fusão dos projetos arquitetônicos de Francisco de Oliveira Passos e do francês Albert Guilbert, empatados no concurso para criação do desenho do novo teatro. O desenho foi inspirado na Ópera de Paris. Desde a década de 30, o Theatro Municipal do Rio de Janeiro tem a preocupação de manter um corpo artístico próprio. Hoje é a única instituição cultural brasileira a manter simultaneamente um coro, uma orquestra sinfônica e uma companhia de ballet.
+    </string>
+
+    <string name="cultures_name7">Biblioteca Nacional</string>
+    <string name="cultures_phone7">(21) 2220-9484</string>
+    <string name="cultures_hours7">Segunda a sexta-feira, de 9h às 17h</string>
+    <string name="cultures_address7">Avenida Rio Branco, 219 - Centro</string>
+    <string name="cultures_web7">http://bn.br</string>
+    <string name="cultures_description7">
+        \tA Biblioteca Nacional do Brasil, considerada pela UNESCO uma das dez maiores bibliotecas nacionais do mundo, é também a maior biblioteca da América Latina. O núcleo original de seu poderoso acervo, calculado hoje em cerca de dez milhões de itens, é a antiga livraria de D. José organizada sob a inspiração de Diogo Barbosa Machado, Abade de Santo Adrião de Sever, para substituir a Livraria Real, cuja origem remontava às coleções de livros de D. João I e de seu filho D. Duarte, e que foi consumida pelo incêndio que se seguiu ao terremoto de Lisboa de 1º de novembro de 1755.\n\n
+        \tO Acervo da Biblioteca Nacional cresce constantemente a partir de doações, aquisições e com a lei do depósito legal, que assegura o registro e a guarda da produção intelectual nacional, além de possibilitar o controle, a elaboração e a divulgação da Bibliografia Brasileira corrente, bem como a defesa e a preservação da língua e da cultura nacionais. Para efeito de Depósito Legal, entende-se toda obra registrada, em qualquer suporte físico, destinada à venda ou distribuição gratuita.\n\n
+        \tA Biblioteca Nacional possui várias áreas de atendimento ao público, oferecendo serviços aos visitantes, pesquisadores e acadêmicos que desejam consultar e pesquisar seu acervo, ou simplesmente conhecer o belo prédio histórico que abriga tantas obras.
+    </string>
+
+    <!-- ## RESTAURANTES ## -->
+
+    <string name="restaurants_name1">Confeiratia Colombo</string>
+    <string name="restaurants_phone1">(21) 2505 1500</string>
+    <string name="restaurants_hours1">(Seg - sex) de 9h às 19h / (Sab e Fer) de 9h às 17h</string>
+    <string name="restaurants_address1">Rua Gonçalves Dias, 32 - Centro</string>
+    <string name="restaurants_web1">http://www.confeitariacolombo.com.br</string>
+    <string name="restaurants_description1">
+        \tCom amplos salões estilo art nouveau, enormes espelhos de cristal da Antuérpia e vitrais franceses, a tradicional Confeitaria Colombo, fundada em 1894, é Patrimônio Cultural e Artístico do Rio de Janeiro. Com 120 anos de idade, é conhecida por ter sido ponto de encontro de artistas, políticos e intelectuais – entre eles Olavo Bilac, Rui Barbosa, Villa-Lobos, Chiquinha Gonzaga, entre outros. No cardápio, mais de 60 guloseimas. A casa serve café da manhã (até as 11h), almoço e chá da tarde.
+    </string>
+
+    <string name="restaurants_name2">Adegão Português</string>
+    <string name="restaurants_phone2">(21) 3439-8879</string>
+    <string name="restaurants_hours2">(Dom - Qui) de 12h às 24h / (Sex e Sab) de 12h à 1h</string>
+    <string name="restaurants_address2">Rua Barão da Torre, 248 - Ipanema</string>
+    <string name="restaurants_web2">http://www.adegaoportugues.com.br/</string>
+    <string name="restaurants_description2">
+        \tAs favas com chouriço são um clássico da cozinha portuguesa. Com arroz de costelinha formam um daqueles pratos que aquecem o corpo e aconchegam a alma. Assim é o novo prato do Adegão Português Ipanema, criado pelo chef Rafael Freitas: costelinhas com favas, linguiça e chouriço. Em seu preparo, a costelinha suína é cozida em vinha d´alho por duas horas, misturada com favas, chouriço, linguiça, arroz, azeitonas pretas e coentro. Divina!
+    </string>
+
+    <string name="restaurants_name3">Bistrô do Lavradio</string>
+    <string name="restaurants_phone3">(21) 3970-3554</string>
+    <string name="restaurants_hours3">Segunda à Sexta, de 11h às 16h</string>
+    <string name="restaurants_address3">Rua do Lavradio, 170 - Lapa </string>
+    <string name="restaurants_web3">https://www.facebook.com/bistrodolavradio/</string>
+    <string name="restaurants_description3">
+        \tInstalado num sobrado com pé direito de 9 metros, em pleno corredor cultural do Rio Antigo, na Lapa, o Bistrô do Lavradio abriu as portas no dia 17 de junho, em soft-opening. O casarão arrojado do final do século XIX chama atenção já na chegada: alia tradição e modernidade num espaço para até 140 pessoas, com ‘pegada’ industrial harmonizada em tons de cinza e vermelho. Os sócios Gabriel Botelho e Regina Guerra cuidaram pessoalmente da decoração, que tem parede de tijolos aparentes, ambientação elegante e despretensiosa, em salão amplo e mezaninos confortáveis. Tudo para agradar!
+    </string>
+
+    <string name="restaurants_name4">Le P\’tit Café</string>
+    <string name="restaurants_phone4">(21) 2267-7546</string>
+    <string name="restaurants_hours4">(Seg - Sexta) de 10h às 19h / (Sab) de 9h30 às 15h</string>
+    <string name="restaurants_address4">Rua Visconde de Pirajá, 444 Loja 114 - Ipanema</string>
+    <string name="restaurants_web4">http://leptitcafe.com.br</string>
+    <string name="restaurants_description4">
+        \tChef pâtissierè Patricia Lombardi encanta os comensais com bolos caseiros, pães de queijo e criativas receitas diárias no café em Ipanema, com jeitinho de casa da avó. Essa é a proposta do Le P’tit Café, fundado e administrado pelas irmãs Patricia e Débora Lombardi, que oferece delícias com toque caseiro e requinte à francesa, para comer nas mesinhas redondas do espaço, levar para casa ou fazer encomenda.\n\n
+        \tO cardápio da casa traz desde receitas simples, como laranja e fubá, ao bolo de cenoura com caldinha de brigadeiro quente e o Angel Cake – bolo de claras com baunilha. O carro-chefe entre os salgados é o pão de queijo, vendido por unidade; a delícia vem da cidade de São João Del Rei (MG). Há ainda outras opções salgadas, como o folhado de queijo minas curado e as quiches de alho poró e também de brie com geleia de damasco. Nos dias quentes, soda italiana para refrescar, nos sabores maçã verde, cramberry, limão siciliano e melancia. Cafés especiais da Have a Coffee, de diferentes torras e produtores também estão no cardápio.
+    </string>
+
+    <string name="restaurants_name5">Vero Gelato Italiano</string>
+    <string name="restaurants_phone5">(21) 3497-8754</string>
+    <string name="restaurants_hours5">Diariamente, de 10h30 à 00h30</string>
+    <string name="restaurants_address5">Rua Visconde de Pirajá, 260 - Ipanema</string>
+    <string name="restaurants_web5">http://www.gelatovero.com.br</string>
+    <string name="restaurants_description5">
+        \tQue tal um saboroso sorvete artesanal com sabores criativos para refrescar o seu verão? Essa é a proposta do Vero Gelato Italiano, localizado em Ipanema, zona sul da cidade. Única sorveteria do país certificada pela Accademia della Gelateria Italiana, a Vero aposta na qualidade de seus produtos e na utilização de ingredientes frescos e naturais. Entre os sabores, que variam diariamente, destaque para os cremosos de gianduia (chocolate com avelã), pistache (trazido de Bronte, na Sicília), panna cotta, zabaione, caramelo com flor de sal, chocolate 72% cacau e café. Já os de fruta não levam nenhum tipo de gordura, sendo feitos apenas com água e açúcar ou com agave azul orgânico, no caso dos sabores diets. Vale experimentar também a linha de sorvetes orgânicos, com quatro sabores disponíveis, em esquema de revezamento, sempre respeitando a sazonalidade dos ingredientes. Os sorvetes são produzidos diariamente no segundo andar da loja, e não levam nenhum tipo de gordura vegetal, conservante ou aromatizante artificial.
+    </string>
+
+    <string name="restaurants_name6">Mud Bug Sports Bar</string>
+    <string name="restaurants_phone6">(21) 2543-5052</string>
+    <string name="restaurants_hours6">Diariamente, de 17h às 2h</string>
+    <string name="restaurants_address6">Rua Rodolfo Dantas, 16 - Copacabana</string>
+    <string name="restaurants_description6">
+        \tCom decoração inspirada no estilo dos bares americanos da década de 1950, o Mud Bug Sports Bar é embalado por música ao vivo. A programação conta com shows variados e as paredes rústicas de madeira e tijolos são decoradas com pinturas de réplicas de capas de vinil e móveis antigos. Jukeboxes ficam à disposição dos clientes. Sanduíches variados e tira-gostos clássicos, como batata frita, são as opções para quem quiser beliscar.
+    </string>
+
+    <string name="restaurants_name7">Botequim do Jóia</string>
+    <string name="restaurants_phone7">(21) 2263-0774</string>
+    <string name="restaurants_address7">Rua Julia Lópes de Almeida, 26 - Centro</string>
+    <string name="restaurants_description7">
+        \tConhecido também como Bar do Joia, o estabelecimento carrega mais de 100 anos de tradição e muita história para contar. Inaugurado como Café e Bar Rio Paiva, em 1909, o local passou a ser chamado pelo atual nome na década de 80, quando Seu Joia tomou a frente do bar do pai. Destaque para a feijoada servida às sextas por Dona Alaíde, viúva de Seu Joia.
+    </string>
+
+    <string name="restaurants_name8">Yolo</string>
+    <string name="restaurants_phone8">(21) 4128-4042</string>
+    <string name="restaurants_hours8">(Seg) 18h à 0h / (Ter - Qui) 18h à 1h / (Sex) 18h às 2h / (Sab) 19h às 2h</string>
+    <string name="restaurants_address8">Rua Mena Barreto, 100 - Botafogo</string>
+    <string name="restaurants_description8">
+        \tO Yolo – You Only Live Once – é uma casa especializada em cachorro-quente e é a escolha perfeita para quem quer fazer um lanche rápido e fácil. Com a proposta take and go, os comensais escolhem entre as cinco receitas prontas, ou criam a sua na hora, e levam para comer ali mesmo, na calçada. São três opções de salsichas – viena, vegana e de cordeiro – e 15 toppings, entre cebola frita, guacamole e relish de pepino com menta. Para beber, peça o chope artesanal puro malte feito para a casa, o Monstro Pilsen.
+    </string>
+
+    <!-- ## HOTÉIS ## -->
+
+    <string name="hotels_name1">Belmond Copacabana Palace</string>
+    <string name="hotels_phone1">(21) 2548-7070</string>
+    <string name="hotels_address1">Avenida Atlântica, 1702 - Copacabana</string>
+    <string name="hotels_web1">http://www.belmond.com/copacabana-palace-rio-de-janeiro/</string>
+    <string name="hotels_description1">
+        \tUm símbolo de sofisticação e requinte, o Copa oferece um serviço impecável, excelente gastronomia e luxuosas acomodações, confirmando a sua tradição de local ideal para se hospedar no Rio de Janeiro.\n\n
+        \tO Belmond Copacabana Palace oferece três restaurantes em suas instalações; o italiano Cipriani, o restaurante Pérgula, que oferece cozinha brasileira e internacional e o restaurante premiado com a estrela Michelin, o Pan-Asiático Mee.\n\n
+        \tEm suas instalações está localizado um dos principais spas da cidade, com tratamentos diferenciados e um salão de beleza, ambos abertos ao público. Além disso, pode ser encontrado centro de convenções com 13 diferentes salas de diversos tamanhos e formatos.  Para festas, oferece os luxuosos salões Golden, Nobre, Palm, Gallery e Crystal.
+    </string>
+
+    <string name="hotels_name2">Casa Áurea Boutique</string>
+    <string name="hotels_phone2">(21) 2242-5830</string>
+    <string name="hotels_address2">Rua Áurea, 80 - Santa Teresa</string>
+    <string name="hotels_web2">http://www.casaaurea.com.br</string>
+    <string name="hotels_description2">
+        \tConsiderada uma das mais charmosas pousadas em Santa Teresa, Rio de Janeiro, a Casa Áurea Boutique oferece hospedagem no estilo Cama e Café em um casarão histórico de Santa Teresa. Uma pousada boutique romântica e aconchegante para turistas individuais, casais e famílias.
+    </string>
+
+    <string name="hotels_name3">Gávea BNB</string>
+    <string name="hotels_phone3">(21) 98662-8288</string>
+    <string name="hotels_address3">Rua dos Oitis, 39 - Gávea</string>
+    <string name="hotels_web3">http://www.gaveabnb.com</string>
+    <string name="hotels_description3">
+        \tO Gávea BNB é um charmoso Bed and Breakfast, localizado numa rua tranquila, no coração da Gávea, a menos de 10 minutos andando do Jardim Botânico, do Leblon e do shopping do bairro. É a hospedagem ideal para quem busca boa localização e ao mesmo tempo tranquilidade. A casa, da década de 40, foi reformada e modernizada em 2014 e possui três confortáveis e bem equipadas suítes. O café da manhã é servido na área externa da casa, debaixo de um lindo abacateiro.
+    </string>
+
+    <string name="hotels_name4">Pompeu Rio</string>
+    <string name="hotels_phone4">(21) 2263-2435</string>
+    <string name="hotels_address4">R. Camerino, 15 - Centro</string>
+    <string name="hotels_web4">http://rederiohoteis.com.br</string>
+    <string name="hotels_description4">
+        \tO Pompeu Rio Hotel está em um edifício modernista do ano 1939 e conta com 60 quartos. Os apartamentos possuem TV LCD, frigobar e Wi-Fi gratuito.\n\n
+        \tLocalizado no Porto Maravilha, que inclui grandes atrações culturais como o Museu do Amanhã, o AquaRio e o MAR, o hotel está a 200 metros do metrô, Central do Brasil, e vários pontos de ônibus, facilitando o acesso a qualquer ponto do Rio de Janeiro.
+    </string>
+
+    <string name="hotels_name5">Adagio</string>
+    <string name="hotels_phone5">(21) 2114-8100</string>
+    <string name="hotels_address5">Avenida Rainha Elizabeth da Bélgica, 440 - Copacabana</string>
+    <string name="hotels_web5">http://www.accorhotels.com/pt-br/hotel-5217-aparthotel-adagio-rio-de-janeiro-ipanema/index.shtml</string>
+    <string name="hotels_description5">
+        \tTodo o conforto de apartamentos exclusivos em um dos bairros mais chiques do Rio de Janeiro.
+    </string>
+
+    <string name="hotels_name6">Vila Leonor</string>
+    <string name="hotels_phone6">(21) 2526-7175</string>
+    <string name="hotels_address6">Rua Costa Bastos, 681 - Santa Teresa</string>
+    <string name="hotels_web6">http://www.villaleonor.com</string>
+    <string name="hotels_description6">
+        \tEntre uma mangueira, bananeiras e bambus, numa rua de paralelepípedos no bairro de Santa Teresa do Rio de Janeiro, a Villa Leonor é um paraíso tropical no coração da Cidade Maravilhosa. De dia, passear pelo Corcovado, no Parque Nacional de Tijuca, até o Cristo Redentor. Descansar num final de tarde no jardim-sala com vista para o brilho da cidade. De noite, caminhar cem metros para baixo e entrar nas casas de samba da Lapa ou na própria escola de samba de Santa Teresa, Badalo.\n\n
+        \tA ala de apartamentos fica numa casa de arquitetura Portuguesa construída nos primeiros anos do século XX, pertinho do Largo das Neves, a charmosa pracinha por onde passa o famoso bonde e onde milhares de pessoas vêm a pé do sambódromo toda noite durante o carnaval para continuar a festa até a madrugada.
+    </string>
+
+    <string name="hotels_name7">Maraca Hostel</string>
+    <string name="hotels_phone7">(21) 3685-9156</string>
+    <string name="hotels_address7">Rua Ribeiro Guimarães, 367 - Tijuca</string>
+    <string name="hotels_web7">http://maracahostel.com.br</string>
+    <string name="hotels_description7">
+        \tCom localização privilegiada, o Maraca Hostel, está a 800 metro de distância do cartão postal do esporte do Rio de Janeiro, o Maracanã. O espaço foi todo pensado para lembrar o estádio e conta com quartos individuais e coletivos e, oferece ainda, café da manhã e piscina para os hospedes.
+    </string>
+
+    <string name="hotels_name8">Casa Caminho do Corcovado</string>
+    <string name="hotels_phone8">(21) 2265-2124</string>
+    <string name="hotels_address8">Rua Filinto de Almeida, 283 - Cosme Velho</string>
+    <string name="hotels_web8">http://casacaminhodocorcovado.com.br</string>
+    <string name="hotels_description8">
+        \tConstruída em 1906, a casa se encontra dentro da reserva ambiental do Parque Nacional da Tijuca. Com o bondinho do Corcovado passando na sua porta, o charme do espaço encanta quem o escolhe. São 4500 metros de área verde com grande diversidade de fauna e flora. A casa funciona no modelo Bed \'n\' Breakfast e já pertenceu a atriz Irene Ravache.
+    </string>
+
+    <string name="hotels_name9">Arena Leme Hotel</string>
+    <string name="hotels_phone9">(21) 2244-92000</string>
+    <string name="hotels_address9">Avenida Atlântica, 324 - Leme</string>
+    <string name="hotels_description9">
+        \tO hotel oferece modernas acomodações com vista para o mar ou para a montanha. Os 164 quartos e suítes oferecem todo o conforto, com ar-condicionado central, janelas acústicas, Wi-Fi grátis, frigobar, além de café da manhã incluso na diária.
+    </string>
+
+    <string name="hotels_name10">Pousada Bonita</string>
+    <string name="hotels_phone10">(21) 2227-1703</string>
+    <string name="hotels_address10">Rua Barão da Torre, 107 - Ipanema</string>
+    <string name="hotels_web10">http://www.bonitaipanema.com</string>
+    <string name="hotels_description10">
+        \tLocalizada em Ipanema, a pousada fica a uma quadra da estação do metrô General Osório e três quadras da praia. Possui 80 vagas.
+    </string>
+
+</resources>

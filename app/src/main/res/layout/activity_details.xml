@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/attraction_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_vertical_margin"
+        tools:context="com.basics.android.udacity.guiadeturismo.DetailsActivity">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/image_card_view"
+            style="@style/card_image">
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:src="@drawable/img_tour1" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView style="@style/card_description">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/description_text_view"
+                    style="@style/description_attraction"
+                    tools:text="@string/tours_description1" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:id="@+id/name_text_view"
+                    style="@style/description_attraction"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:textStyle="bold"
+                    tools:text="@string/tours_name1" />
+
+                <include layout="@layout/activity_details_bottom" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

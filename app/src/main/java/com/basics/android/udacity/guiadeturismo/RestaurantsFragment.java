@@ -1,0 +1,95 @@
+package com.basics.android.udacity.guiadeturismo;
+
+
+import android.content.Intent;
+import android.content.res.Resources;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+
+public class RestaurantsFragment extends Fragment {
+
+
+    public RestaurantsFragment() {
+        // Contrutor público vazio requerido.
+    }
+
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.word_list, container, false);
+
+        Resources r = getActivity().getResources();
+
+        // Cria um array de atrações referente a restaurantes. Nome e endereço são obrigatórios.
+        final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
+        attractions.add(new Attraction(r.getString(R.string.restaurants_name1),
+                r.getString(R.string.restaurants_hours1), r.getString(R.string.restaurants_phone1),
+                r.getString(R.string.restaurants_address1), r.getString(R.string.restaurants_web1),
+                r.getString(R.string.restaurants_description1), R.drawable.img_restaurant1));
+        attractions.add(new Attraction(r.getString(R.string.restaurants_name2),
+                r.getString(R.string.restaurants_hours1), r.getString(R.string.restaurants_phone1),
+                r.getString(R.string.restaurants_address2), r.getString(R.string.restaurants_web2),
+                r.getString(R.string.restaurants_description2), R.drawable.img_restaurant2));
+        attractions.add(new Attraction(r.getString(R.string.restaurants_name3),
+                r.getString(R.string.restaurants_hours3), r.getString(R.string.restaurants_phone3),
+                r.getString(R.string.restaurants_address3), r.getString(R.string.restaurants_web3),
+                r.getString(R.string.restaurants_description3), R.drawable.img_restaurant3));
+        attractions.add(new Attraction(r.getString(R.string.restaurants_name4),
+                r.getString(R.string.restaurants_hours4), r.getString(R.string.restaurants_phone4),
+                r.getString(R.string.restaurants_address4), r.getString(R.string.restaurants_web4),
+                r.getString(R.string.restaurants_description4), R.drawable.img_restaurant4));
+        attractions.add(new Attraction(r.getString(R.string.restaurants_name5),
+                r.getString(R.string.restaurants_hours5), r.getString(R.string.restaurants_phone5),
+                r.getString(R.string.restaurants_address5), r.getString(R.string.restaurants_web5),
+                r.getString(R.string.restaurants_description5), R.drawable.img_restaurant5));
+        attractions.add(new Attraction(r.getString(R.string.restaurants_name6),
+                r.getString(R.string.restaurants_hours6), r.getString(R.string.restaurants_phone6),
+                r.getString(R.string.restaurants_address6), null, r.getString(R.string.restaurants_description6),
+                Attraction.NO_IMAGE_PROVIDED));
+        attractions.add(new Attraction(r.getString(R.string.restaurants_name7), null,
+                r.getString(R.string.restaurants_phone7), r.getString(R.string.restaurants_address7),
+                null, r.getString(R.string.restaurants_description7), R.drawable.img_restaurant7));
+        attractions.add(new Attraction(r.getString(R.string.restaurants_name8),
+                r.getString(R.string.restaurants_hours8), r.getString(R.string.restaurants_phone8),
+                r.getString(R.string.restaurants_address8), null, r.getString(R.string.restaurants_description8),
+                R.drawable.img_restaurant8));
+
+        // Cor de fundo para os cards da lista de atrações desta categoria a ser exibida.
+        final int color = ContextCompat.getColor(getContext(), R.color.category_restaurants);
+
+        AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions, color);
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        listView.setAdapter(adapter);
+
+        // Listener para exibir detalhes da atração quando um item da lista é clicado.
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(getActivity(), DetailsActivity.class);
+                // Adiciona todos os dados da atração clicada para serem exibidos em DetailsActivity.
+                intent.putExtra("name", attractions.get(position).getName());
+                intent.putExtra("hours", attractions.get(position).getHours());
+                intent.putExtra("phone", attractions.get(position).getPhone());
+                intent.putExtra("imageResourceId", attractions.get(position).getImageResourceId());
+                intent.putExtra("address", attractions.get(position).getAddress());
+                intent.putExtra("web", attractions.get(position).getWeb());
+                intent.putExtra("description", attractions.get(position).getDescription());
+                // Adiciona a mesma cor de fundo do card clicado para ser usado como fundo da tela
+                // de detalhes
+                intent.putExtra("color", color);
+                getActivity().startActivity(intent);
+            }
+        });
+
+        return rootView;
+    }
+}

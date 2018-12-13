@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/hours_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/icon_details_padding"
+            android:src="@drawable/ic_hours" />
+
+        <TextView
+            android:id="@+id/hours_text_view"
+            style="@style/details_attraction"
+            tools:text="@string/tours_hours1" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/icon_details_padding"
+            android:src="@drawable/ic_location" />
+
+        <TextView
+            android:id="@+id/address_text_view"
+            style="@style/details_attraction"
+            tools:text="@string/tours_address1" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/phone_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/icon_details_padding"
+            android:src="@drawable/ic_phone" />
+
+        <TextView
+            android:id="@+id/phone_text_view"
+            style="@style/details_attraction"
+            tools:text="@string/tours_phone1" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/web_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/icon_details_padding"
+            android:src="@drawable/ic_web" />
+
+        <TextView
+            android:id="@+id/web_text_view"
+            style="@style/details_attraction"
+            android:textColor="@color/colorAccent"
+            tools:text="@string/tours_web1" />
+
+    </TableRow>
+
+</TableLayout>
