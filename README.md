@@ -18,4 +18,4 @@ Cada item da lista ao ser clicado exibe informações mais detalhadas da atraç�
 
 ## Copyright
 
-Esse projeto foi desenvolvido por Márcio Souza de Oliveira e todas as imagens utilizadas foram retiradas de fontes públicas no Google
+Esse projeto foi desenvolvido por Márcio Souza de Oliveira em 22/09/2016 e todas as imagens utilizadas foram retiradas de fontes públicas no Google
